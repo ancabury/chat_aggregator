@@ -4,7 +4,7 @@ html {
 
 body {
   font-size: 20px;
-  background: #616161;
+  background: #E0E0E0;
   min-height: 100%;
 }
 
@@ -14,13 +14,18 @@ body {
 }
 
 #chat-icons, #chat-groups {
-  background-color: #9E9E9E;
-  box-shadow: 5px 0px 10px #BDBDBD;
+  background-color: #BDBDBD;
+  box-shadow: 5px 0px 10px #9E9E9E;
   margin-right: 5px;
   text-align: center;
   height: 100vh;
   padding: 0px;
   color: #FFF;
+}
+
+#chat-icons {
+  background-color: #64b5f6;
+  box-shadow: 5px 0px 10px #9E9E9E;
 }
 
 i {
@@ -121,7 +126,7 @@ i {
 
 .message-other {
   box-shadow: 0px 5px 10px #BDBDBD;
-  background-color: #BBDEFB;
+  background-color: #64b5f6;
   height: auto;
   min-height: 6vh;
   margin: 10px;
