@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-size: 20px;
+  background: #616161;
+  min-height: 100%;
+}
+
+#chat-icons, #chat-groups {
+  background-color: #9E9E9E;
+  box-shadow: 5px 0px 10px #BDBDBD;
+  margin-right: 5px;
+  text-align: center;
+  height: 100vh;
+  padding: 0px;
+}
+
+i {
+  padding: 9px;
+  border-radius: 50px;
+  color: #FFF;
+  background: none;
+}
+
+.sidebar-icon {
+  margin: 10px 0px;
+  padding: 5px 0px;
+  width: 100%;
+}
+
+.sidebar-icon:hover {
+  background: #BDBDBD;
+}
+
+#chat-icons .sidebar-icon .chat-icon {
+  background: none;
+  height: 45px;
+  width: 45px;
+}
