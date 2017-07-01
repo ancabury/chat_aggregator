@@ -104,6 +104,39 @@ i {
 }
 
 #send-message-form {
-  height: 20vh;
-  min-height: 20vh;
+  height: 12vh;
+  min-height: 12vh;
+}
+
+.message-me, .message-other {
+  margin: 15px;
+}
+
+.message-me .user-profile-picture, .message-other .user-profile-picture {
+  margin: 5px 5px;
+}
+
+.message-me {
+  box-shadow: 0px 5px 10px #BDBDBD;
+  background-color: #E0E0E0;
+  height: auto;
+  min-height: 6vh;
+  margin: 10px;
+}
+
+.message-other {
+  text-align: right;
+}
+
+.message-other {
+  box-shadow: 0px 5px 10px #BDBDBD;
+  background-color: #BBDEFB;
+  height: auto;
+  min-height: 6vh;
+  margin: 10px;
+}
+
+.message-content {
+  text-align: justify;
+  width: 80%;
 }
