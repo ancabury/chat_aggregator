@@ -204,3 +204,50 @@ i {
   top: 70px;
   bottom: 200px;
 }
+
+/*###### Search all page ######*/
+
+#search {
+  padding: 3px;
+  border: solid 1px #E4E4E4;
+  border-radius: 6px;
+  background-color: #fff;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#search input{
+  border: 0;
+  box-shadow: none;
+}
+
+#search button{
+  margin: 2px 0 0 0;
+  background: none;
+  box-shadow: none;
+  border: 0;
+  color: #666666;
+  padding: 0 8px 0 10px;
+  border-left: solid 1px #E4E4E4;
+}
+
+#search button:hover{
+  border: 0;
+  box-shadow: none;
+  border-left: solid 1px #ccc;
+}
+
+#search .fa-search{
+  font-size: 23px;
+  color: #E4E4E4;
+}
+
+#search-message-container {
+  margin-left: 20px;
+  height: 78vh;
+  min-height: 78vh;
+}
+
+#search-message-container .message-me {
+  background-color: #F0F0F0;
+}
